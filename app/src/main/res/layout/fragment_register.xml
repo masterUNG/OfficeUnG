@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -25,13 +26,18 @@
 
             <!--avata-->
             <ImageView
+                android:scaleType="centerInside"
+                android:id="@+id/imvAvata"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/avata"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
 
             <!--Name-->
             <EditText
+                android:id="@+id/edtName"
+                android:layout_marginTop="@dimen/margin16"
+                android:background="@drawable/name"
                 android:inputType="text"
                 android:hint="@string/name"
                 android:layout_width="match_parent"
@@ -39,6 +45,10 @@
 
             <!--Email-->
             <EditText
+                android:id="@+id/edtEmail"
+                android:layout_marginBottom="@dimen/margin16"
+                android:layout_marginTop="@dimen/margin16"
+                android:background="@drawable/email"
                 android:inputType="textEmailAddress"
                 android:hint="@string/email"
                 android:layout_width="match_parent"
@@ -46,6 +56,8 @@
 
             <!--Password-->
             <EditText
+                android:id="@+id/edtPassword"
+                android:background="@drawable/password"
                 android:inputType="text"
                 android:hint="@string/pass"
                 android:layout_width="match_parent"
