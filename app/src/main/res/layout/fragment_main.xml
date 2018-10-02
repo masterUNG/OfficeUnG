@@ -40,6 +40,8 @@
 
         <!--New Register-->
         <TextView
+            android:clickable="true"
+            android:id="@+id/txtRegister"
             android:layout_marginTop="@dimen/margin16"
             android:layout_gravity="center_horizontal"
             android:text="@string/regis"
