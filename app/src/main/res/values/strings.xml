@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Office Ung</string>
+    <string name="email">Email:</string>
+    <string name="pass">Password:</string>
+    <string name="name">Name:</string>
+    <string name="regis">New Register</string>
 </resources>
